@@ -90,3 +90,21 @@ form :where(textarea ,select ,button){
         color: var(--bc);
     }
 }
+
+@media screen and (max-width: 555px) {
+    :root{
+        --bc: #79a91f;
+    }
+    main{
+        width: 300px; 
+        margin: 0 5px;
+    }
+    section h2{
+        font-size: 23px;
+        margin: -20px 0px;
+        padding-top: 10px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+}
